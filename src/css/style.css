@@ -1,0 +1,199 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(172, 8, 194, 0.445);
+}
+
+h2{
+   color:rgb(68, 31, 90);
+   text-align: center;
+}
+
+.tku next{
+    background-color:  rgb(57, 10, 102);
+}
+
+.tku{
+    color: rgb(57, 10, 102);
+}
+
+h1{
+    color: rgb(213, 230, 226);
+    background-color: rgb(35, 5, 63);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.albuns{
+ color: rgba(172, 8, 194, 0.651);
+ font-size: 300%;
+ border-style:double;
+ background-color: rgb(90, 55, 110);
+ border-width: 20px;
+ 
+}
+
+form{
+    font-family: "Gill Sans", sans-serif;
+}
+
+.email{
+    margin: auto;
+}
+
+#login{
+    background-color: darkorchid;
+    border-radius: 40px;
+    width: 50% 10%;
+    margin: 0% 20%;
+    border-width: 20px;
+    border-style: double;
+    border-color: rgba(35, 5, 63, 0.877);
+    
+}
+
+.ab{
+text-align: center;
+}
+
+footer{
+    background-color: rgb(100, 34, 122);
+    font-family: "Gill Sans", sans-serif;
+    font-size: large;
+    color: aliceblue;
+}
+
+#pesquisa{
+    background-color: rgb(35, 5, 63);
+    padding: 15px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.ínicio{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Albuns{
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.login{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+  zoom:105%;
+  color: rgb(195, 43, 255);
+  transition: 1.2s;
+}
+
+.ínicio:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.Albuns:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.login:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+  figure {
+    width: 500px;
+    aspect-ratio: 8 / 5;
+    --bg: hsl(330 80% calc(90% - (var(--hover) * 10%)));
+    --accent: hsl(280 80% 40%);
+    transition: background 0.2s;
+    background:
+      radial-gradient(circle at top left, var(--accent), transparent 75%),
+      var(--bg);
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    
+  }
+  
+  figure:after {
+    content: "";
+    position: absolute;
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 10%;
+    background: linear-gradient(-65deg, var(--bg) 50%, var(--accent) 50%);
+    filter: blur(25px);
+    transform:
+      translateX(calc(var(--hover) * 15%))
+      scale(calc(1 + (var(--hover) * 0.2)));
+    transition: transform 0.2s, background 0.2s;
+  }
+  
+  .ringspng{
+    position:absolute;
+    left: 1%;
+    top:1%;
+    width: 40%;
+    transform:
+      translateX(calc(var(--hover) * -15%))
+      scale(calc(1 + (var(--hover) * 0.2)));
+    transition: transform 0.2s;
+  }
+  
+  article {
+    --hover: 0;
+  }
+  
+  article:hover {
+    --hover: 1;
+  }
+
+  #menu-h{
+    background-color: rgb(177, 28, 197)
+  }
+  #menu-h ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0 auto;
+   background-color: rgb(177, 28, 197);
+   font-family: 'Poppins', sans-serif;
+   padding:20px;
+  }
+
+  #li{
+    display: inline;
+  }
+
+  #menu-h ul li a{
+    display: inline;
+    color: rgb(40, 6, 59);
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  #menu-h ul li a:hover{
+    
+    color: rgb(229, 98, 255);
+    zoom: normal;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: background .6s;
+  }
+
+  @media (max-width:500px) {
+    figure { 
+      width: 90%;
+    }
+  }
+  
+  
+  
